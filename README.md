@@ -4,7 +4,7 @@ tcpmux
 The reference implementation for RFC-1078 (TCPMUX) from 1988
 
 TCPMUX is described in RFC-1078 (written some 20 years ago). A reference
-implementation by Network Wizards can be found at
+implementation by Network Wizards used to live at
 
 ftp://ftp.nw.com/nw/software/tcpmux.c
 
@@ -44,5 +44,7 @@ solution might be the answer to keeping your packet filters lean and less
 complex. It does not have to be less complex than it has to be though. The
 Wikipedia article on tcpmux clearly identifies risks that come with deploying
 it. Personally, I view tcpmux as an old and simple TCP RPC mechanism.
+
+This repository provides a copy of the reference implementation.
 
 http://blog.postmaster.gr/2010/12/20/tcpmux-a-mostly-overlooked-tcp-service/
